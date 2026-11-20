@@ -3,50 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abdullah | Developer Portfolio</title>
+    <title>Abdullah | Founder &amp; Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <style>
-       
-    </style>
 </head>
 <body>
 
-    <div class="portfolio-card">
-        <img src="profile.jpg" alt="Zaman's Profile Picture" class="profile-img">
+    <main class="bento-container">
 
-        <h1>Abdullah</h1>
-        <div class="subtitle">Backend & Automation Developer</div>
-        
-        <p class="bio-text">
-            Hi! I'm a passionate student and aspiring backend developer. I love solving problems using code, exploring system automation, and building efficient server-side architectures.
-        </p>
+        <!-- Hero Card -->
+        <section class="card hero-card">
+            <img src="profile.jpg" alt="Abdullah's Profile Picture" class="profile-img">
+            <div class="hero-content">
+                <div class="hero-header">
+                    <h1>Abdullah</h1>
+                    <span class="role-pill">Founder &amp; Scholar</span>
+                </div>
+                <p class="subtitle">Developer &bull; Founder of ZreKot &bull; Learning AI Agents</p>
+                <p class="bio-text">
+                    Student and builder focused on privacy-first web utilities, backend automation, and browser-based AI. Currently building <strong>ZreKot</strong> and diving deep into autonomous AI agents.
+                </p>
+                <div class="action-links">
+                    <a href="https://zrekot.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Visit ZreKot &nearr;</a>
+                    <a href="https://github.com/AbdullahRozi" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">GitHub</a>
+                </div>
+            </div>
+        </section>
 
-        <hr>
+        <!-- Featured Project: ZreKot -->
+        <section class="card featured-card">
+            <div class="card-header">
+                <h2>Featured Brand</h2>
+                <span class="status-badge live">Live &bull; zrekot.com</span>
+            </div>
+            <div class="project-title-row">
+                <h3>ZreKot</h3>
+                <span class="project-role">Founder &amp; Lead Developer</span>
+            </div>
+            <p class="card-text">
+                A privacy-first web utility brand built on zero-server-upload, client-side architecture. Every tool runs directly in the browser for speed and privacy—covering image compression, padding, format conversion, and client-side AI background removal, with an expanding suite of upcoming tools like an AI image upscaler.
+            </p>
+            <div class="tag-group">
+                <span class="tech-tag">Zero-Server Privacy</span>
+                <span class="tech-tag">WebGPU</span>
+                <span class="tech-tag">ONNX / Transformers.js</span>
+                <span class="tech-tag">Vite</span>
+                <span class="tech-tag">Cloudflare Pages</span>
+            </div>
+            <a href="https://zrekot.com" target="_blank" rel="noopener noreferrer" class="text-link">Explore zrekot.com &rarr;</a>
+        </section>
 
-        <h3>Education</h3>
-        <ul class="info-list">
-            <li class="info-item">
-                <span><strong>Khyber Model School & College AWT Badaber</strong><br>2nd Year Student</span>
-                <span class="status-badge">In Progress</span>
-            </li>
-        </ul>
+        <!-- Current Focus & Learning -->
+        <section class="card focus-card">
+            <div class="card-header">
+                <h2>Current Focus</h2>
+                <span class="mono-label">// learning</span>
+            </div>
+            <ul class="focus-list">
+                <li>
+                    <strong>AI Agents</strong>
+                    <span>Exploring autonomous agent workflows, tool-calling architectures, and practical automation.</span>
+                </li>
+                <li>
+                    <strong>Client-Side AI &amp; Web Utilities</strong>
+                    <span>Running vision and image-processing models directly in the browser with WebGPU and WASM.</span>
+                </li>
+                <li>
+                    <strong>Backend &amp; Automation</strong>
+                    <span>Building reliable server-side logic, Python scripts, and scalable developer workflows.</span>
+                </li>
+            </ul>
+        </section>
 
-        <h3>Certifications & Training</h3>
-        <ul class="info-list">
-            <li class="info-item">
-                <span><strong>Python for Everybody</strong><br>Coursera (UMich)</span>
-                <span class="status-badge completed">Completed</span>
-            </li>
-            <li class="info-item">
-                <span><strong>Meta Backend Developer</strong><br>Coursera Certificate</span>
-                <span class="status-badge">In Progress</span>
-            </li>
-            <li class="info-item">
-                <span><strong>Google IT Automation with Python</strong><br>Coursera Certificate</span>
-                <span class="status-badge">In Progress</span>
-            </li>
-        </ul>
-    </div>
+        <!-- Tech Stack -->
+        <section class="card stack-card">
+            <div class="card-header">
+                <h2>Tech Stack</h2>
+                <span class="mono-label">// tools</span>
+            </div>
+            <div class="stack-grid">
+                <span class="stack-pill">Python</span>
+                <span class="stack-pill">JavaScript</span>
+                <span class="stack-pill">HTML &amp; CSS</span>
+                <span class="stack-pill">Node.js</span>
+                <span class="stack-pill">Vite</span>
+                <span class="stack-pill">WebGPU / ONNX</span>
+                <span class="stack-pill">Transformers.js</span>
+                <span class="stack-pill">Git &amp; GitHub</span>
+                <span class="stack-pill">Cloudflare Pages</span>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section class="card education-card">
+            <div class="card-header">
+                <h2>Education</h2>
+                <span class="mono-label">Peshawar, PK</span>
+            </div>
+            <ul class="info-list">
+                <li class="info-item">
+                    <div>
+                        <strong>Khyber Model School &amp; College AWT Badaber</strong>
+                        <span>2nd Year Student</span>
+                    </div>
+                    <span class="status-badge">In Progress</span>
+                </li>
+            </ul>
+        </section>
+
+    </main>
 
 </body>
 </html>
